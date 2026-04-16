@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+ 
+    text-decoration:  none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+#vertical-menu{
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#vertical_menu li a{
+    color: #000;
+    padding:9px 16px;
+}
+
+#vertical-menu li a.active{
+
+}
