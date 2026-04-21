@@ -34,5 +34,15 @@ li a:hover{
 }
 
 #vertical-menu li a.active{
+    background-color: #4caf50;
+    color: white;
+
+
+}
+
+#vertical_menu li a:hovernot(.active){
+    background-color: #555;
+    color:white;
+
 
 }
