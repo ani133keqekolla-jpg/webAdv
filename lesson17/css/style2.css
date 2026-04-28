@@ -1,0 +1,42 @@
+:root{
+    --primary-color:white;
+    --secondary-color:blue;
+    --padding:20px;
+
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+#example{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 3px;
+background-color: green;
+}
+
+#example2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 3px;
+background-color:solid green;
+}
+
+#example3{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 3px;
+    background:url(../image.png)
+}
