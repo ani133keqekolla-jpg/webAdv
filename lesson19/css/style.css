@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    background: color #06206a;
+}
+
+.conatiner div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.conatiner div:nth-child(1){
+    order: 2;
+}
+
+
+.conatiner div:nth-child(2){
+    order: 3;
+}
+
+
+.conatiner div:nth-child(3){
+    order: 0;
+}
+
+
+.conatiner div:nth-child(4){
+    order: 1;
+}
+
+.conatiner{
+    flex-direction: row;
+
+}
+
+.conatiner div:nth-child(1){
+    flex-grow: 1;
+}
+
+.conatiner {
+    flex-wrap:wrap ;
+}
